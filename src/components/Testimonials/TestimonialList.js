@@ -5,11 +5,16 @@ const TestimonialList = props => {
   return (
     <div className="listView">
       <div className="viewToggle">
-        <button>Grid</button>
+        <button disabled>Grid</button>
         <button>List</button>
       </div>
       <div className="listItems">
-        <ListItem />
+        {
+          props.comments.map((comment) => {
+            return <ListItem key={comment.id} name={comment.name} age={comment.age} comment={comment.comments} imageUrl={comment.imageUrl} />
+          })
+        }
+        
       </div>
     </div>
   )

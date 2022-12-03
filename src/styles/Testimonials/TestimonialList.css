@@ -1,7 +1,7 @@
 .listView {
+  width: 60vw;
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
   background-color: antiquewhite;
   border: 2px solid rgb(255, 208, 147);
   border-radius: 20px;
