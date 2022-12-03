@@ -11,7 +11,7 @@ const TestimonialList = props => {
       <div className="listItems">
         {
           props.comments.map((comment) => {
-            return <ListItem key={comment.id} name={comment.name} age={comment.age} comment={comment.comments} imageUrl={comment.imageUrl} />
+            return <ListItem key={comment.id} name={comment.name} age={comment.age} location={comment.location} comment={comment.comments} imageUrl={comment.imageUrl} />
           })
         }
         
