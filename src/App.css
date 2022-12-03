@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6, p, span {
   font-family: sans-serif;
 }
 
+h1 {
+  margin: 20px 30px;
+}
+
 .container {
   display: flex;
   flex-direction: row;
