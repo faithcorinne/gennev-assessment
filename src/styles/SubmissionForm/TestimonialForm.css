@@ -1,0 +1,21 @@
+.submissionForm {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px;
+  /* align-items: center; */
+  background-color: #f67053;
+  border: 2px solid #e25131;
+  border-radius: 20px;
+}
+
+.submissionForm .inputFields {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.submissionForm .inputFields input {
+  margin: 10px 0;
+  width: 60%;
+}

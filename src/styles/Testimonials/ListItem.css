@@ -1,0 +1,9 @@
+.listItems {
+  padding: 10px 20px;
+}
+
+.listItems .listItem {
+  border: 1px solid #e25131;
+  background-color: white;
+  padding: 10px; 
+}

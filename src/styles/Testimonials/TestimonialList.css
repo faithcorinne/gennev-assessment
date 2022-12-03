@@ -1,0 +1,26 @@
+.listView {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  background-color: antiquewhite;
+  border: 2px solid rgb(255, 208, 147);
+  border-radius: 20px;
+}
+
+.listView > .viewToggle {
+  background-color: #f67053;
+  border-bottom: 2px solid rgb(255, 208, 147);
+  padding: 20px 10px;
+  border-radius: 20px 20px 0 0;
+  align-items: left;
+}
+
+.listView > .viewToggle button {
+  width: 100px;
+  background-color: bisque;
+  color: #e25131;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 5px;
+}
